@@ -1,0 +1,60 @@
+# FastAPI and server
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+slowapi==0.1.9  # 速率限制
+
+# Database
+sqlalchemy==2.0.36
+aiosqlite==0.20.0
+greenlet==3.3.1
+
+# Caching
+redis==5.2.1
+hiredis==2.4.0  # C parser for redis
+
+# Document processing
+PyMuPDF==1.24.12  # fitz - faster PDF extraction
+python-docx==1.1.2
+python-pptx==0.6.23
+
+# Vector Database
+chromadb==0.6.3
+
+# Utilities
+pydantic==2.10.4
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+email-validator==2.3.0
+
+# LangChain & LangGraph
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-openai==0.2.14
+langgraph==0.2.59
+langgraph-checkpoint==2.0.12
+
+# AI/ML
+dashscope
+openai==1.59.7
+tiktoken==0.8.0
+passlib[argon2]
+python-jose[cryptography]
+
+# OCR
+# Optional OCR dependencies. These conflict with PyMuPDF 1.24.x in this project,
+# so install them separately only if scanned-PDF OCR is required.
+# paddleocr==2.7.0
+# paddlepaddle==2.6.2
+numpy<2.0  # Required for imgaug compatibility
+scikit-image
+imgaug
+lmdb
+attrdict
+openpyxl
+pdf2docx
+premailer
+visualdl
+fire
+cython
