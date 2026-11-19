@@ -1,1 +1,0 @@
-# EduGenius Backend Application

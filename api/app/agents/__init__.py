@@ -1,1 +1,0 @@
-# Multi-Agent Teaching System
